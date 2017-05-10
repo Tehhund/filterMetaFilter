@@ -1,7 +1,7 @@
 // This currently doesn't filter everything appropriately. Need to investigate why it misses some comments but not others.
 console.log('filterMetaFilter.js ran.');
 
-//browser.runtime.onMessage.addListener(handleMessage);
+browser.runtime.onMessage.addListener(handleMessage);
 
 function handleMessage(request, sender, sendResponse) {
   let allDataObject = {
