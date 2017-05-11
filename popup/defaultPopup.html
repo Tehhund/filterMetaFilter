@@ -3,12 +3,16 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type = "text/css" href = "defaultPopup.css" />
   </head>
 
   <body>
-    <p><input type="button" id="sortButton" value="Sort by Favorites descending" /></p>
-    <p><label for="commentsThreshold">Filter comments with fewer than </label><input type="number" id="commentsThreshold" value="1" /> Favorites.
-    <input type="button" id="filterButton" value="Filter by Favorites" /></p>
+    <div class="everythingDiv">
+      <input type="button" id="sortButton" value="Sort by Favorites descending" />
+      <hr />
+      <div><label for="commentsThreshold">Filter comments with fewer than </label><div><input type="number" id="commentsThreshold" value="1" /> Favorites.</div>
+      <div style="float: right;"><input type="button" id="filterButton" value="Filter by Favorites" /></div>
+    </div>
 
     <script src="defaultPopup.js"></script>
   </body>

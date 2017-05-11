@@ -1,0 +1,31 @@
+.everythingDiv {
+  font-family:  Verdana, arial, sans-serif;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  line-height: 1.75;
+}
+
+input {
+  font-size: 0.9rem;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+#filterButton, #sortButton {
+  float: right;
+  background-color: lightgrey;
+  box-shadow: 2px 2px grey;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0;
+    width: 100%;
+}

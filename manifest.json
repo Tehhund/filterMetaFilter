@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Filter MetaFilter",
-  "version": "0.1",
+  "version": "0.3",
 
   "description": "Sort and filter Metafilter comments by Favorites.",
 
@@ -18,12 +18,5 @@
     "default_icon": "icons/mfIcon48x48.png",
     "default_title": "Filter MetaFilter",
     "default_popup": "popup/defaultPopup.html"
-  },
-
-  "content_scripts": [
-    {
-      "matches": ["*://thisScriptCurrentlyDisabled.metafilter.com/*"],
-      "js": ["contentScripts/sortMetaFilter.js"]
-    }
-  ]
+  }
 }
